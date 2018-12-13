@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Table</title>
+</head>
+<body>
+
+    <script src="js/main.js"></script>
+    
+    <form>
+        <input type="text" id="name" placeholder="Name">
+        <input type="text" id="last name" placeholder="Last Name">
+        <input type="text" id="d.o.b" placeholder="D.O.B">
+    	<input type="button" class="add-row" value="Add Row">
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>Select</th>
+                <th>Name</th>
+                <th>Last Name</th>
+                <th>D.O.B</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox" name="record"></td>
+                <td>Natalie</td>
+                <td>Daniels</td>
+                <td>1998.12.10</td>
+            </tr>
+        </tbody>
+    </table>
+    <button type="button" class="delete-row">Delete Row</button>
+
+    <script src="jquery.js"></script>
+
+</body>
+</html>
